@@ -2,6 +2,8 @@
 html,body{
     width:3840px;
     height:1080px;
+    background:url("../images/bg.jpg") no-repeat;
+    background-size: 100% 100%;
 }
 #app{
     width:100%;
@@ -13,18 +15,24 @@ html,body{
     display: inline-block;
     height:100%;
 }
-.left{
-    width:1000px;
-    background-color: #ff0000;
-    left:0;
-}
+/* .left{
+    background:url("../images/left.png") no-repeat;
+    background-size: 100% 100%;
+    width:1087px;
+    height:839px;
+    
+} */
 .center{
-    width:1840px;
-    background-color: #00ff00;
-    left:1000px;
+    background:url("../images/center1.png") no-repeat;
+    background-size: 100% 100%;
+    width:3662px;
+    height:1054px;
+ 
 }
-.right{
-    width:1000px;
-    background-color: #0000ff;
-    left:2840px;
-}
+/* .right{
+    background:url("../images/right.png") no-repeat;
+    background-size: 100% 100%;
+    width:1139px;
+    height:856px;
+ 
+} */
