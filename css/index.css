@@ -3,8 +3,28 @@ html,body{
     width:3840px;
     height:1080px;
 }
-
-img{
+#app{
     width:100%;
     height:100%;
+    position: relative;
+}
+#app>section{
+    position: absolute;
+    display: inline-block;
+    height:100%;
+}
+.left{
+    width:1000px;
+    background-color: #ff0000;
+    left:0;
+}
+.center{
+    width:1840px;
+    background-color: #00ff00;
+    left:1000px;
+}
+.right{
+    width:1000px;
+    background-color: #0000ff;
+    left:2840px;
 }
