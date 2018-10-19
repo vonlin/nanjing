@@ -7,10 +7,10 @@ $(document).on('click','.button1',function(){
 }).on('click','.button-to-index',function(){
     $('#home').fadeOut()
     $('.num').each(function(index,el){
-        new CountUp(el,0,Number($(el).text().replace(/,+/g,'')),0,5).start()
+        new CountUp(el,0.98*Number($(el).text().replace(/,+/g,'')),Number($(el).text().replace(/,+/g,'')),0,600).start()
     })
 })
 
 $('.num').each(function(index,el){
-    new CountUp(el,0,Number($(el).text().replace(/,+/g,'')),0,5).start()
+    new CountUp(el,0.98*Number($(el).text().replace(/,+/g,'')),Number($(el).text().replace(/,+/g,'')),0,600).start()
 })
